@@ -8,15 +8,30 @@ const quizData = [
     correct: "c",
   },
   {
-    question: "자바스크립트에서 함수 선언식의 예시는 무엇인가요?",
-    a: "let myFunction = function() {}",
-    b: "function myFunction() {}",
-    c: "const myFunction = () => {}",
-    d: "myFunction() => {}",
+    question: "다음주 수업은 무슨 요일까지 일까요?",
+    a: "월",
+    b: "화",
+    c: "수",
+    d: "목",
     correct: "b",
   },
+  {
+    question: "4-1=?",
+    a: "1",
+    b: "2",
+    c: "3",
+    d: "4",
+    correct: "c",
+  },
+  {
+    question: "a 누르세요",
+    a: "a",
+    b: "b",
+    c: "c",
+    d: "d",
+    correct: "a",
+  },
 ];
-
 //1. getElementByid로 보기,문제,버튼 태그 가져오기
 // 라디오 버튼
 //2. querySelectorAll로 라디오버튼 가져오기
